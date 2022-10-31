@@ -20,6 +20,9 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "author"
+    },
+    "original": {
+      "type": "string"
     }
   }
 }
